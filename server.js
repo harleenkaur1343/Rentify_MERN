@@ -27,6 +27,6 @@ mongoose
 app.use("/user", userRoutes);
 app.use("/property", propertyRoutes);
 
-app.listen(5000, function () {
+app.listen(2000, function () {
   console.log("the server is running on the port 5000");
 });
