@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const db = 'mongodb://127.0.0.1:27017/rentify';
+const db =
+  "mongodb+srv://harleenkaur1343:YK91MA0OE73AztYO@cluster0.qkkf8jf.mongodb.net/rentify?retryWrites=true&w=majority&appName=Cluster0";
 
-module.exports=db;
+module.exports = db;
