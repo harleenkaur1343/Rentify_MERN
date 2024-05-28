@@ -24,6 +24,9 @@ mongoose
   .then(() => console.log("Database connected!"))
   .catch((err) => console.error(err));
 
+app.use("/",(req,res)=>{
+  res.send("This is a test link for rentify app");
+});
 app.use("/user", userRoutes);
 app.use("/property", propertyRoutes);
 
